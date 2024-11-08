@@ -15,7 +15,7 @@ body {
 #logo {
     padding-top: 2vh;
     padding-bottom: 2vh;
-    width: 75vw;
+    width: 50vw;
     height: auto;
     display: inline-block;
 }
@@ -24,6 +24,7 @@ body {
     text-align: center;
     width: 100%;
     border: solid 1px #212529;
+    border-top: solid 2px white;
     background-color: #212529;
 }
 
@@ -54,4 +55,12 @@ body {
     justify-content: center;
     margin-left: 5vh;
     margin-right: 5vh;
+    justify-content: space-between;
+}
+
+.first, .second{
+    margin-top: 1rem;
+    width: auto;
+    height: 25vh;
+    background-color: #ADB5BD;
 }
